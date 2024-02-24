@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lobster", sans-serif;
+    font-weight: normal;
+}
+
+header {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.header-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 18px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: grey  ;
+    margin: 15px auto;
+    padding: 16px;
+    border-radius: 10px;
+    width: 480px;
+    max-width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+form input, form button {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+label {
+    font-size: 20px;
+}
+
+#tarefas {
+    margin-right:200px ;
+    margin-top: 10px;
+}
+
+.adicionar-tarefa, ul {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: antiquewhite;
+}
+
+
+ul li {
+    list-style: none;
+    color: red;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    height: 40px;
+    cursor: pointer;
+}
+
+.linha {
+    text-decoration: line-through;
+    color: rgb(0, 255, 0);
+    font-size: 18px;
+}
+
+
+.footer {
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: grey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form input {
+    margin-top: 0;
+}
