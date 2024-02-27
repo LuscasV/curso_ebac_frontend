@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Formulário de Cadastro</h1>
+    </header>
+
+    <div class="container">
+        <form id="formulario">
+            <label for="nome" id="nome-label" >Nome completo</label>
+            <input type="text" name="nome" id="nome" required placeholder= "Nome completo:">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required placeholder="Ex: email@gmail.com">
+
+            <label for="numero">Telefone</label>
+            <input type="tel" name="numero" required id="numero">
+
+            <label for="cpf">CPF</label>
+            <input type="tel" name="cpf" required id="cpf">
+
+            <label for="endereco">Endereço</label>
+            <input type="text" name="endereco" id="endereco" required placeholder="Ex: Rua: Gustavo Guimarães n°900">
+
+            <label for="cep">CEP</label>
+            <input type="tel" name="cep" required id="cep">
+
+            <button type="submit" id="button">Cadastrar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+</body>
+</html>

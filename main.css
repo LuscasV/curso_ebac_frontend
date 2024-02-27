@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 30px;
+    color: white;
+    font-weight: none;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Anton", sans-serif;
+    color: white;
+    border-radius: 10px;
+    width: 480px;
+    background-color: rgb(39, 39, 53);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: normal;
+}
+
+form input,
+form button {
+    display: block;
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(75, 75, 243);
+    color: white;
+}
+
+#button {
+    max-width: 120px;
+    background-color: rgb(43, 169, 11);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
